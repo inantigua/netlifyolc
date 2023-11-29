@@ -1,13 +1,12 @@
 ---
-title: "Peter Van Eijk"
+title: "Downtown Los Angeles Only - Courtesy Copy Delivery."
 date: 2018-11-19T10:47:58+10:00
-image: "images/team/peter-van-eijk-711986-unsplash.jpg"
-jobtitle: "Director"
+image: "images/illustrations/1995.svg"
+jobtitle: "Los Angeles Superior Court"
 linkedinurl: "https://www.linkedin.com/"
 promoted: true
 weight: 1
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-
-Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Los Angeles Superior Court Stanley Mosk Courthouse
+111 N. Hill Street 312 N. Spring Street Los Angeles, CA 90012.
