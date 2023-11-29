@@ -1,27 +1,27 @@
 [
   {
     "title": "Free Consultation",
-    "description": "New clients receive an obligation free consultation.",
+    "description": "Setup an OLC account and receive free filing consultation.",
     "image": {
-      "url": "images/features/noun_branding_1885335.svg",
+      "url": "images/features/services1.jpeg",
       "width": 80,
       "height": 80
     }
   },
   {
-    "title": "Certified Accountants",
-    "description": "All members of our team are certified accountants.",
+    "title": "California Superior Courts",
+    "description": "Our electronic portal can E-File in Los Angeles, Orange County and throughtout California Superior Courts.",
     "image": {
-      "url": "images/features/noun_The Process_1885341.svg",
+      "url": "images/features/services2.jpeg",
       "width": 80,
       "height": 80
     }
   },
   {
-    "title": "Tax Compliance",
-    "description": "We stay up to date on the latest changes to the tax code.",
+    "title": "Los Angeles Courts",
+    "description": "We service Superior and Federal courts in the Los Angeles area.",
     "image": {
-      "url": "images/features/noun_3d modeling_1885342.svg",
+      "url": "images/features/LASuperiorCourt.png",
       "width": 80,
       "height": 80
     }
