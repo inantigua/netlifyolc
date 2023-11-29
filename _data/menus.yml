@@ -1,12 +1,12 @@
 main:
-  - name: "Services"
-    url: "/services/"
+  - name: "Civil E-File LogIn"
+    url: "https://efile.onlinelegalcourier.com/ca/"
     weight: 2
-  - name: "Team"
-    url: "/team/"
+  - name: "CT Corporation"
+    url: "/services/CT-Corporation-Systems/"
     weight: 3
-  - name: "About"
-    url: "/about/"
+  - name: "Courtesy Copies"
+    url: "/services/LA-Court-Courtesy-Copy/"
     weight: 4
   - name: "Contact"
     url: "/contact/"
