@@ -2,7 +2,6 @@
 title: "Courtesy and Chamber Copy Delivery - Los Angeles Courts"
 date: 2019-01-28T15:15:26+10:00
 weight: 2
-bodyClass: "page-teams"
 ---
 
 Courtesy Copy Printing & Delivery to the following Courthouses 
