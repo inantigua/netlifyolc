@@ -3,7 +3,6 @@ title: "Downtown Los Angeles Only - Courtesy Copy Delivery."
 date: 2018-11-19T10:47:58+10:00
 image: "images/illustrations/1995.svg"
 jobtitle: "Los Angeles Superior Court"
-linkedinurl: "https://www.linkedin.com/"
 promoted: true
 weight: 1
 ---
