@@ -3,7 +3,6 @@ title: "Long Beach Court"
 date: 2018-11-19T10:47:58+10:00
 image: "images/illustrations/75.svg"
 jobtitle: "We service every court"
-linkedinurl: "https://www.OnlineLegalCourier.com/"
 promoted: true
 weight: 1
 ---
