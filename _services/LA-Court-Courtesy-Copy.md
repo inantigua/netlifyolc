@@ -2,6 +2,8 @@
 title: "Courtesy and Chamber Copy Delivery - Los Angeles Courts"
 date: 2019-01-28T15:15:26+10:00
 weight: 2
+layout: default
+bodyClass: "page-teams"
 ---
 
 Courtesy Copy Printing & Delivery to the following Courthouses 
@@ -12,6 +14,70 @@ Courtesy Copy Printing & Delivery to the following Courthouses
 > *Blue Backing, if required is included.
 >
 > *Exhibit Tabs are considered a page. 
+
+
+<div class="intro">
+    <div class="container">
+        <div class="row justify-content-start">
+            <div class="col-12 col-md-7 col-lg-6 order-2 order-md-1">
+                {{ content }}
+            </div>
+            {% if page.intro_image %}
+            <div class="col-12 col-md-5 col-lg-6 order-1 order-md-2 position-relative">
+                <img alt={{ page.title }} class="intro-image{% if page.intro_image_absolute %} intro-image-absolute{% endif %}{% if page.intro_image_hide_on_mobile %} intro-image-hide-mobile{% endif %}" src="{{ page.intro_image | relative_url }}" />
+            </div>
+            {% endif %}
+        </div>
+    </div>
+</div>
+
+
+<div class="container pt-6 pb-6">
+    <div class="row">
+        {% assign promoted_teams = site.team | where: "promoted", true | sort: "weight" %}
+        {% for team in promoted_teams %}
+        <div class="col-12 col-md-6 mb-2">
+            <div class="team team-summary team-summary-large">
+                {% if team.image %}
+                <div class="team-image">
+                    <img width="90" height="90" alt="{{ team.title }}" class="img-fluid mb-2" src="{{ team.image | relative_url }}" />
+                </div>
+                {% endif %}
+                <div class="team-meta">
+                    <h2 class="team-name"><a href="{{ team.url | relative_url }}">{{ team.title }}</a></h2>
+                    <p class="team-description">{{ team.jobtitle }}</p>
+                    {% if team.linkedinurl %}
+                    <a target="_blank" href="{{ team.linkedinurl }}" rel="noreferrer">LinkedIn</a>
+                    {% endif %}
+                </div>
+                <div class="team-content">{{ team.content | truncate: 120 }}</div>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+    <div class="row pt-6 pb-6">
+        {% assign teams = site.team | where: "promoted", empty | sort: "weight" %}
+        {% for team in teams %}
+        <div class="col-12 col-md-4 mb-3">
+            <div class="team team-summary">
+                {% if team.image %}
+                <div class="team-image">
+                    <img width="60" height="60" alt="{{ team.title }}" class="img-fluid mb-2" src="{{ team.image | relative_url }}" />
+                </div>
+                {% endif %}
+                <div class="team-meta">
+                    <h2 class="team-name"><a href="{{ team.url | relative_url }}">{{ team.title }}</a></h2>
+                    <p class="team-description">{{ team.jobtitle }}</p>
+                </div>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</div>
+
+
+
+
 
 
 {% if site.data.onlinelegalcourierservicescourts %}
