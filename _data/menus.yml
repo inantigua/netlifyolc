@@ -8,8 +8,8 @@ main:
   - name: "Courtesy Copies"
     url: "/services/LA-Court-Courtesy-Copy/"
     weight: 4
-  - name: "Team"
-    url: "/team/"
+  - name: "Contact"
+    url: "/contact/"
     weight: 5
 
 footer:
