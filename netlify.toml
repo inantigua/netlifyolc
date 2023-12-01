@@ -7,6 +7,6 @@
   RUBY_VERSION = "3.2.2"
 
 [[redirect]] 
-  from = "*"
+  from = "/homepage/aboutus"
   to = "index.md"
   status = 404
