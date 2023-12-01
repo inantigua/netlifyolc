@@ -8,5 +8,4 @@
 
 [[redirect]] 
   from = "/homepage/aboutus"
-  to = "index.md"
-  status = 404
+  to = "/contact/"
