@@ -7,10 +7,6 @@
   RUBY_VERSION = "3.2.2"
 
 [[redirects]] 
-  from = "https://efileonlinelegalcourier.netlify.app/homepage/aboutus"
-  to = "/contact/"
-
-[[redirects]]  
-  from = "/homepage/aboutus"
+  from = "http://www.onlinelegalcourier.com/homepage/aboutus"
   to = "/contact/"
 
