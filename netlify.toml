@@ -7,6 +7,7 @@
   RUBY_VERSION = "3.2.2"
 
 [[redirects]] 
-  from = "http://www.onlinelegalcourier.com/homepage/aboutus"
+  from = "*"
   to = "/contact/"
+  status = 404
 
