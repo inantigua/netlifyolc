@@ -9,3 +9,6 @@
 [[redirects]] 
   from = "https://efileonlinelegalcourier.netlify.app/homepage/aboutus"
   to = "/contact/"
+  from = "/homepage/aboutus"
+  to = "/contact/"
+
