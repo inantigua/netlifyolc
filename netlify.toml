@@ -5,3 +5,8 @@
 [build.environment]
   JEKYLL_ENV = "production"
   RUBY_VERSION = "3.2.2"
+
+[[redirect]] 
+  from = "*"
+  to = "index.md"
+  status = 404
