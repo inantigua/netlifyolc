@@ -6,6 +6,6 @@
   JEKYLL_ENV = "production"
   RUBY_VERSION = "3.2.2"
 
-[[redirect]] 
-  from = "/homepage/aboutus"
+[[redirects]] 
+  from = "https://efileonlinelegalcourier.netlify.app/homepage/aboutus"
   to = "/contact/"
